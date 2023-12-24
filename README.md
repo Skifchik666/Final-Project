@@ -7,5 +7,7 @@
 Папка tests содержит файлы для запуска автотестов: test_auth_page.py - тесты для страницы авторизация, test_registr_page.py - тесты для страницы регистрация.
 
 Папка pages содержит следующие файлы: locators.py - локаторов на веб страницах, base_page.py - базовая страница, от которой унаследованы все остальные классы, auth_page.py - класс для страницы авторизация, registr_page.py - класс для страницы регистрация.
+
 Перед запуском тестов требуется установить необходимые библиотеки:pytest, pytest-selenium, selenium, urllib3. 
+
 Тесты запускаются командами python -m pytest -v --driver Chrome --driver-path chromedriver tests/test_auth_page.py (для страницы авторизации), python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_registr_page.py (для страницы регистрации) где "chromedriver" путь к вашему webdriver.   
