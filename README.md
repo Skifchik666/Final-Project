@@ -10,4 +10,4 @@
 
 Перед запуском тестов требуется установить необходимые библиотеки:pytest, pytest-selenium, selenium, urllib3. 
 
-Тесты запускаются командами python -m pytest -v --driver Chrome --driver-path chromedriver tests/test_auth_page.py (для страницы авторизации), python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_registr_page.py (для страницы регистрации) где "chromedriver" путь к вашему webdriver.   
+Тесты запускаются командами: python -m pytest -v --driver Chrome --driver-path chromedriver tests/test_auth_page.py (для страницы авторизации), python -m pytest -v --driver Chrome --driver-path chromedriver tests/test_registr_page.py (для страницы регистрации) где "chromedriver" путь к вашему webdriver.   
